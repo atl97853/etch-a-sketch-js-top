@@ -1,0 +1,30 @@
+body {
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    max-width: 640px;
+    max-height: 640px;
+    background-color: rgb(11, 1, 37);
+    /* flex */
+    flex-shrink: 0;
+
+}
+
+.div-new {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255,0,0,0.2);
+    vertical-align: top;
+    /* flex */
+    /* border: solid black; */
+}
+
+.div-new:hover {
+    background-color: white;
+}
+
