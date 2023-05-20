@@ -19,7 +19,7 @@ console.log(divsArray);
 // Append divs in the DOM document
 divsArray.forEach(div => divMain.appendChild(div)); 
 
-// Set grid 
+// Set grid size width and height 
 divMain.style.maxWidth = `${totalPixels}px`;
 divMain.style.maxHeight = `${totalPixels}px`;
 
