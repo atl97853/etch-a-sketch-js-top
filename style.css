@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-    display: flex;
+    display: inline;
 
     /* flex */
     flex-shrink: 0;
@@ -28,13 +28,12 @@ body {
 
 .div-new {
     display: inline-flex;
-    width: 40px;
-    height: 40px;
-    /* vertical-align: top; */
+    /* width: 43px;
+    height: 43px; */
+    vertical-align: top;
     /* border: 1px solid grey; */
     /* flex */
     flex-shrink: 0;
-    flex-wrap: ;
 }
 
 .div-new:hover {

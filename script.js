@@ -1,13 +1,15 @@
 // Variables
 const divMain = document.querySelector('.main-container');
 const divsArray = [];
-let divsTotal = 16;
+let divsTotal = 30;
 let pixelsTotal = 640/divsTotal;
 
 // Create array with divs 
 for (let i = 0; i < divsTotal * divsTotal; i++) {
     let divNew = document.createElement('div');
     divNew.classList.add('div-new');
+    divNew.style.width = `${pixelsTotal}px`;
+    divNew.style.height = `${pixelsTotal}px`;
     divsArray.push(divNew);
 };
 
