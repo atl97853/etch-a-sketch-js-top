@@ -27,11 +27,12 @@ body {
 }
 
 .div-new {
+    box-sizing: border-box;
     display: inline-flex;
     /* width: 43px;
     height: 43px; */
     vertical-align: top;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
     /* flex */
     flex-shrink: 0;
 }
