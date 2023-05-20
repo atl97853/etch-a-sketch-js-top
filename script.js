@@ -27,4 +27,3 @@ divMain.style.maxHeight = `${totalPixels}px`;
 divsArray.forEach(div => div.addEventListener('click', (div) => {
     div.target.style.background = 'blue'; 
 }));
-
