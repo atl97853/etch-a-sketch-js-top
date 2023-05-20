@@ -1,7 +1,7 @@
 // Variables
 const divMain = document.querySelector('.main-container');
 const divsArray = [];
-//  let size = Number(prompt('Create your grid'));
+// let size = Number(prompt('Create your grid'));
 let size = 32;
 let totalPixels = size * 20;
 
@@ -24,15 +24,7 @@ divMain.style.maxWidth = `${totalPixels}px`;
 divMain.style.maxHeight = `${totalPixels}px`;
 
 // Add and change divs color
-const testingDiv = document.createElement('div')
-testingDiv.classList.add('testing-div');
-divMain.appendChild(testingDiv);
-
-testingDiv.addEventListener('click', (e) => {
-    console.log(e.target);
-    e.target.style.background = 'blue';
-})
-
 divsArray.forEach(div => div.addEventListener('click', (div) => {
-    div.target.style.background = 'blue';
-}))
+    div.target.style.background = 'blue'; 
+}));
+
